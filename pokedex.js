@@ -19,7 +19,7 @@ const fetchPokemon = () => {
         fetch(url).then((res) => {
             if (res.status != "200") {
                 console.log(res);
-                pokeImage("./pokemon.png")
+                pokeImage("./pokeball.png")
             }
             else {
                 return res.json();
